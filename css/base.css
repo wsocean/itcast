@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+/* 初始化CSS  重置浏览器样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; } /*为了照顾ie6 链接图片有边框*/
+img{display: block;}
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+table { border-collapse:collapse; }
+body {font-size:12px; color:#999;}
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { zoom:1; }
+.clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+a { color:#666; text-decoration:none; }
+
+a:hover { color:#ff8400; text-decoration:none; }
+
+
+
+.shortcut {
+    width: 100%;
+    background-color: #0C1118;
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    padding:10px 80px 10px 0;
+}
+.logo img {
+    width: 185px;
+    height: 39px;
+}
+.nav {
+    float: left;
+    height: 60px;
+}
+
+.nav ul li {
+    float: left;
+    height: 60px;
+}
+.nav ul li a {
+    display: block;
+    font: 14px/60px "simsun";
+    color: #FFFFFF;
+    height: 60px;
+    padding:0 18px ;
+}
+.nav ul li a:hover {
+    background-color: #008AFF;
+}
+.button {
+    float: right;
+    width: 104px;
+    padding-top: 15px;
+    padding-left: 66px;
+}
+.button a {
+    display: block;
+    width: 47px;
+    height: 30px;
+    text-align: center;
+    font: 14px/30px "simsun";
+}
+.button .button1 {
+    background-color: #0C1118;
+    float: left;
+    border: 1px solid #FF6300;
+    color: #FF6300;
+}
+.button .button2 {
+    background-color: #FF6300;
+    float: left;
+    margin-left: 6px;
+    border: 1px solid  #FF6300;
+    color: #FFFFFF;
+}
+.button a:hover {
+    color: #ff8400;
+}
+.banner .ad {
+    background-color: #516D9F;
+    height: 520px;
+    background: url(../images/banner_02.jpg) no-repeat top center;
+    position: relative;
+}
+.square {
+    width: 94px;
+    height: 22px;
+    left: 50%;
+    margin-left: -55px;
+    position: absolute;
+    bottom: 10px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 8px 0 0 16px;
+}
+.square li {
+    float: left;
+    height: 14px;
+    width: 14px;
+    background-color: #516D9F;
+    margin-right: 16px;
+    border-radius: 7px;
+}
+.square .current {
+    background-color: #FFFFFF;
+
+}
+.footer-a {
+    background-color: #314262;
+    height: 180px;
+    
+}
+.footer-a .a-l {
+    float: left;
+}
+.footer-a .w dl {
+    float: left;
+    padding-top: 24px;
+    padding-right: 120px;
+
+}
+.footer-a .w  dt {
+    font: 400 18px/36px "simsun";
+    color: #FFFFFF;
+}
+.footer-a .w dd a{
+    line-height: 26px;
+    padding-left: 10px;
+    background: url(../images/square_05.png) no-repeat left center;
+    color: #B0BCD0;
+}
+.footer-b {
+    background-color: #1B2434;
+    height: 40px;
+}
+.footer-a .a-r {
+    float: right;
+    background: url(../images/erweima_07.jpg) no-repeat;
+    width: 115px;
+    height: 115px;
+    margin-top: 42px;
+}
+.footer-b .w p {
+    line-height: 40px;
+}
+.contents ul li {
+    float: left;
+}
